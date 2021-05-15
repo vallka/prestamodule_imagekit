@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>imagekit</name>
+	<displayName><![CDATA[ImageKit]]></displayName>
+	<version><![CDATA[0.1.0]]></version>
+	<description><![CDATA[Allows to use ImageKit.io in Front Office]]></description>
+	<author><![CDATA[vallka]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
