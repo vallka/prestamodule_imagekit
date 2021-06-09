@@ -218,7 +218,8 @@ class Imagekit extends Module
         if ($params['url']) {
             if ( Configuration::get('IMAGEKIT_LIVE_MODE', false) && Configuration::get('IMAGEKIT_ENDPOINT', '')) {
                 $tr = $params['tr'] ? 'tr:'.$params['tr'] : '';
-                return Configuration::get('IMAGEKIT_ENDPOINT', '') . $tr . parse_url($params['url'],PHP_URL_PATH) . '?' . Configuration::get('IMAGEKIT_TS', '');
+                $v = $params['v'] ? '?'.Configuration::get('IMAGEKIT_TS', '') : '';
+                return Configuration::get('IMAGEKIT_ENDPOINT', '') . $tr . parse_url($params['url'],PHP_URL_PATH) . $v;
             }
 
             return $params['url'];
