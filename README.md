@@ -172,6 +172,3 @@ If, for some reason, I will unregister 	 or disable my module, all images will g
 
 but for some reason it doesn't seem to work. Anyone can help? (Maybe I had to use "modifer" instead of "function" in Smarty plugin, it would be easier than?)
 	
-As usual, the source of the module is on GitHub:
-	
-[https://github.com/vallka/prestamodule_imagekit.git	](https://github.com/vallka/prestamodule_imagekit.git)
